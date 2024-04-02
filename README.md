@@ -13,3 +13,10 @@ go mod init github.com/yagrush/go-sample-module-a
 ```
 make test
 ```
+
+## リリース作業
+
+### タグだけをpushする
+```
+git push origin main --tags
+```
