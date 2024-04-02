@@ -14,9 +14,14 @@ go mod init github.com/yagrush/go-sample-module-a
 make test
 ```
 
-## リリース作業
+## memo
 
 ### タグだけをpushする
 ```
 git push origin main --tags
+```
+
+### キャッシュを無視してgo install
+```
+GOPROXY=direct go install <package>@latest
 ```
